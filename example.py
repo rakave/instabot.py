@@ -13,14 +13,14 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="harihansin",
+    password="7845497721",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    comments_per_day=500,
+    tag_list=['follow4follow', 'indian', 'desi', 'busty', 'cleavage' 'bangalore', 'tamil', 'tamilponnu', 'tamilachi','youtuber', 'photography', 'instagood', 'makeup', 'outfit', 'desigirl', 'indianteen', 'freethenipple' ],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
-    max_like_for_one_tag=50,
+    max_like_for_one_tag=150,
     follow_per_day=300,
     follow_time=1 * 60,
     unfollow_per_day=300,
@@ -32,13 +32,12 @@ bot = InstaBot(
     # For example: "This shot feels wow!"
     comment_list=[["this", "the", "your"],
                   ["photo", "picture", "pic", "shot", "snapshot"],
-                  ["is", "looks", "feels", "is really"],
-                  ["great", "super", "good", "very good", "good", "wow",
+                  ["is", "looks", "is really"],
+                  ["great", "good", "very good", "wow", "fantastic"
                    "WOW", "cool", "GREAT","magnificent", "magical",
                    "very cool", "stylish", "beautiful", "so beautiful",
                    "so stylish", "so professional", "lovely",
-                   "so lovely", "very lovely", "glorious","so glorious",
-                   "very glorious", "adorable", "excellent", "amazing"],
+                   "so lovely", "very lovely", "adorable", "excellent", "amazing"],
                   [".", "..", "...", "!", "!!", "!!!"]],
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
